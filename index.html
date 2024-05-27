@@ -8,44 +8,70 @@
     <script src="/js/alpine.js"></script>
   </head>
   <body>
-    <nav class="max-w-screen-md:px-5 mb-4 bg-sky-400 py-6">
-      <div class="mx-auto flex max-w-screen-lg items-center justify-between">
-        <h1 class="text-3xl font-bold text-white">ghall.dev</h1>
-        <ul class="flex gap-4">
-          
-            <li
-              class="group rounded bg-white px-4 py-1 transition-colors hover:bg-sky-500"
-            >
+    <main
+      class="flex min-h-screen flex-col bg-gradient-to-br from-indigo-900 to-red-900 px-10 text-white"
+    >
+      <nav class="max-w-screen-md:px-5 mb-4 py-6">
+        <div class="mx-auto flex max-w-screen-lg items-center justify-between">
+          <h1 class="text-3xl font-bold text-white">ghall.dev</h1>
+          <!-- <ul class="flex gap-10">
+            
+            <li>
               <a
-                class="text-lg uppercase transition-colors group-hover:text-white"
+                class="flex gap-2 text-lg font-thin uppercase text-sky-100 transition-colors hover:text-white"
                 href="/"
-                >Home</a
+                ><embed
+                  class="text-white"
+                  src="/icons/info-circle.svg"
+                /><span>Home</span></a
               >
             </li>
-          
-            <li
-              class="group rounded bg-white px-4 py-1 transition-colors hover:bg-sky-500"
-            >
+            
+            <li>
               <a
-                class="text-lg uppercase transition-colors group-hover:text-white"
+                class="flex gap-2 text-lg font-thin uppercase text-sky-100 transition-colors hover:text-white"
                 href="/projects"
-                >Projects</a
+                ><embed
+                  class="text-white"
+                  src="/icons/brush.svg"
+                /><span>Projects</span></a
               >
             </li>
-          
-        </ul>
-      </div>
-    </nav>
-    <div class="max-w-screen-md:px-5 mx-auto max-w-screen-lg">
-      <h2 class="mb-4 text-3xl text-orange-600">Home</h2>
-      
-<div>
-  <span class="text-change">Good design</span><br />
-  <span class="change">is<br />as little design<br />as possible</span><br />
-  <span x-data="{message:'🤖 Hello World 🤓'}" x-text="message"></span>
+            
+          </ul> -->
+        </div>
+      </nav>
+      <div
+        class="max-w-screen-md:px-5 mx-auto flex max-w-screen-lg flex-grow items-center"
+      >
+        
+<div class="h-fit">
+  <h2 class="mx-auto my-10 max-w-screen-md text-center text-2xl">
+    I’m Graham, a web developer from Rhode Island, certified in full-stack
+    development, and specializing in front-end.
+  </h2>
+  <p>
+    I created my first website when I was in middle school, and even though it
+    wasn’t that great it kicked off my love for building great things. All these
+    years later, that passion still burns strong, and my skillset has only
+    grown!
+  </p>
+  <p>
+    I spent several years in the design world, but in 2020 I decided to make the
+    jump towards taking on web development professionally. In January of 2021, I
+    began attending a web development boot camp with UC Berkeley, and graduated
+    the following summer. Today, I’m a full-time developer at Nerd.
+  </p>
+  <p>
+    When I’m not 👨🏻‍💻 writing code you can find me playing 🎮 video games, 🥾
+    hiking, and trying to improve my 🥘 cooking and 🎨 art skills!
+  </p>
 </div>
 
-    </div>
-    <footer class="mt-4"></footer>
+      </div>
+      <footer class="mt-4 flex justify-center py-8">
+        <span>2024 - Graham Hall</span>
+      </footer>
+    </main>
   </body>
 </html>
