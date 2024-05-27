@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <h1 class="m-3 text-4xl font-bold text-purple-600">Hello World</h1>
+    <div class="m-3">
+      <h2 class="text-3xl text-orange-600">{{title}}</h2>
+      {{ content | safe }}
+    </div>
   </body>
 </html>

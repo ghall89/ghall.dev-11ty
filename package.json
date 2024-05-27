@@ -2,7 +2,8 @@
   "name": "ghall.dev",
   "scripts": {
     "dev": "concurrently \"bunx @11ty/eleventy --serve\" \"bunx tailwindcss -i ./src/tailwind.css -o ./_site/css/styles.css --watch\"",
-    "build": "bunx @11ty/eleventy && bunx tailwindcss -i ./src/tailwind.css -o ./_site/css/styles.css"
+    "build": "bunx @11ty/eleventy && bunx tailwindcss -i ./src/tailwind.css -o ./_site/css/styles.css",
+    "clear": "bunx @11ty/eleventy --clear"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
