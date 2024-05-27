@@ -9,6 +9,7 @@
     "@11ty/eleventy": "^2.0.1",
     "@types/bun": "latest",
     "concurrently": "^8.2.2",
+    "html-minifier": "^4.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-jinja-template": "^1.4.0",
     "prettier-plugin-tailwindcss": "^0.5.14",
@@ -16,5 +17,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.0"
   }
 }
