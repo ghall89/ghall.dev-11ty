@@ -2,7 +2,11 @@
 export default {
   content: ["./_site/**/*.{html,njk}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Rec Mono Semicasual", "mono"],
+      },
+    },
   },
   plugins: [],
 };

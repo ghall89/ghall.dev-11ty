@@ -1,8 +1,8 @@
 {
   "name": "ghall.dev",
   "scripts": {
-    "dev": "concurrently \"bunx @11ty/eleventy --serve\" \"bunx tailwindcss -i ./src/tailwind.css -o ./_site/css/styles.css --watch\"",
-    "build": "bunx @11ty/eleventy && bunx tailwindcss -i ./src/tailwind.css -o ./_site/css/styles.css",
+    "dev": "concurrently \"bunx @11ty/eleventy --serve\" \"bunx tailwindcss -i ./src/style/tailwind.css -o ./_site/style/tailwind.css --watch\"",
+    "build": "bunx @11ty/eleventy && bunx tailwindcss -i ./src/style/tailwind.css -o ./_site/style/tailwind.css",
     "clear": "bunx @11ty/eleventy --clear"
   },
   "devDependencies": {

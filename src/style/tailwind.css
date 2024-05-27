@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Rec Mono Semicasual";
+  src: url(fonts/RecMonoSemicasual-Regular-1.085.ttf);
+}
