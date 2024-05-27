@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style/tailwind.css" />
   </head>
   <body>
-    <h1 class="m-3 text-4xl font-bold text-purple-600">Hello World</h1>
+    <nav>
+      <h1 class="m-3 text-4xl font-bold text-purple-600">Hello World</h1>
+    </nav>
     <div class="m-3">
-      <h2 class="text-3xl text-orange-600">{{title}}</h2>
+      <h2 class="text-3xl text-orange-600">{{ title }}</h2>
       {{ content | safe }}
     </div>
   </body>
