@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Rec Mono Semicasual, mono;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -600,6 +600,12 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+@font-face {
+  font-family: "Rec Mono Semicasual";
+
+  src: url(fonts/RecMonoSemicasual-Regular-1.085.ttf);
 }
 
 .hover\:text-sky-500:hover {
