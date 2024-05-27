@@ -1,0 +1,18 @@
+{
+  "name": "ghall.dev",
+  "scripts": {
+    "dev": "concurrently \"bunx @11ty/eleventy --serve\" \"bunx tailwindcss -i ./src/tailwind.css -o ./_site/css/styles.css --watch\"",
+    "build": "bunx @11ty/eleventy && bunx tailwindcss -i ./src/tailwind.css -o ./_site/css/styles.css"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@types/bun": "latest",
+    "concurrently": "^8.2.2",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
