@@ -2,6 +2,7 @@ const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/style/fonts");
+  eleventyConfig.addPassthroughCopy("src/icons");
 
   eleventyConfig.addPassthroughCopy({
     "./node_modules/alpinejs/dist/cdn.js": "./js/alpine.js",

@@ -6,3 +6,7 @@
   font-family: "Rec Mono Semicasual";
   src: url(fonts/RecMonoSemicasual-Regular-1.085.ttf);
 }
+
+p {
+  @apply my-3;
+}

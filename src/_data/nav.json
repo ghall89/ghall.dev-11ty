@@ -1,10 +1,12 @@
 [
   {
     "label": "Home",
-    "href": "/"
+    "href": "/",
+    "icon": "info-circle"
   },
   {
     "label": "Projects",
-    "href": "/projects"
+    "href": "/projects",
+    "icon": "brush"
   }
 ]
