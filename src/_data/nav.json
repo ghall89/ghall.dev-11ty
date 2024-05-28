@@ -1,0 +1,12 @@
+[
+  {
+    "label": "About",
+    "id": "about",
+    "icon": "info-circle"
+  },
+  {
+    "label": "Skills",
+    "id": "skills",
+    "icon": "brush"
+  }
+]

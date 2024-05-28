@@ -1,0 +1,17 @@
+[
+  {
+    "name": "KeyStash",
+    "url": "https://github.com/ghall89/KeyStash",
+    "description": "A native Mac app for managing software license keys written in Swift and SwiftUI."
+  },
+  {
+    "name": "ghall.blog",
+    "url": "https://ghall.blog",
+    "description": "My blog where I write about stuff."
+  },
+  {
+    "name": "Alfred Git Workflow",
+    "url": "https://github.com/ghall89/alfred-git-workflow",
+    "description": "An Alfred workflow for browsing git repos in a user-configurable folder."
+  }
+]
