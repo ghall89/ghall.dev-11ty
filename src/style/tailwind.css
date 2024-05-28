@@ -10,3 +10,7 @@
 p {
   @apply my-3;
 }
+
+a {
+  @apply text-blue-300 underline hover:text-purple-200;
+}
